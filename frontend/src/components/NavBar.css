@@ -1,0 +1,37 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem ;
+    margin-bottom: 1rem;
+
+  
+  }
+#navbar h2 {
+    color: #7703fc;
+    font-weight: 900;
+    
+  }
+
+#navbar ul {
+  align-items: center;
+}
+
+#navbar .bottom{
+  background-color: #7703fc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#navbar .bottom:hover{
+  opacity: 0.8;
+}
+  
+#navbar .btns {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+
